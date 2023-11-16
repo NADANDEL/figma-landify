@@ -8,8 +8,9 @@
     width: 100vw;
     height: 100vh;
     background-image: url("images/Background.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-size: cover;
    
 }
 
@@ -64,11 +65,10 @@
 
 .hero-section {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     margin: 100px auto auto;
     max-width: 1400px;
     padding: 0 20px;
-    align-items: center;
 }
 
 .hero-title {
@@ -77,7 +77,7 @@
     font-size: 72px;
     line-height: 98px;
     color: #18191F;
-    margin: 70px;
+ 
 }
 
 .hero-content {
@@ -100,5 +100,18 @@
     font-size: 16px;
     line-height: 24px;
     cursor: pointer;
-    margin: 70px;
+    align-items: flex-start;
+}
+
+.hero-content-wrapper {
+    display: flex;
+   justify-content: space-between;
+}
+
+.hero-company-logos {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 65px;
 }
