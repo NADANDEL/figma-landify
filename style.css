@@ -1139,3 +1139,78 @@
     overflow: hidden;
 }
 
+.footer-section-wrapper {
+    display: flex;
+    padding: 56px 165px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 461px;
+    background: var(--default-black, #0B0D17);
+}
+
+.footer-logos-wrapper {
+    background: var(--default-black, #0B0D17);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.appstore-logo-footer {
+    margin-top: 16px;
+}
+
+.google-play-logo-footer {
+    margin-top: 16px;
+}
+
+.get-the-app-footer {
+    color: var(--text-gray-300, #D9DBE1);
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Subtitle / Subtitle 2 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+.left-footer-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 460px;
+}
+
+.first-line {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.second-line {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-section {
+    width: 1440px;
+    height: 280px;
+}
+
+.left-footer-content-wrapper {
+    color: var(--default-white, #FFF);
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Body / Body 1 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
