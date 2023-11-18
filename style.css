@@ -1013,3 +1013,129 @@
     align-items: flex-start;
     gap: 48px;
 }
+
+.cta-section {
+    width: 1440px;
+    height: 490px;
+    background: #2EC5CE;
+    background-size: cover;
+    width: 100%;
+}
+
+.cta-section-left-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    margin: 69px 90px 67px 165px;
+}
+
+.cta-section-left-container-title {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Heading / H2 */
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px; /* 133.333% */
+    width: 540px;
+}
+
+.cta-section-left-container-text-content {
+    align-self: stretch;
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Lead / Lead 1 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+
+.left-container-bottom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 48px;
+}
+
+.get-the-app {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Subtitle / Subtitle 2 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+.logo-container-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.logo-googleplay {
+    width: 135px;
+    height: 40px;
+}
+
+.logo-appstore {
+    width: 135px;
+    height: 40px;
+}
+
+
+
+.cta-section {
+    display: flex;
+  }
+  
+ .phone-one {
+    position: relative;
+}
+  
+.phone-one-case {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.phone-one-screen {
+    width: auto;
+    margin-left: 15px;
+}
+
+.phone-two {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 100px; 
+    flex-shrink: 0;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+  
+.phone-two-case {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.phone-two-screen {
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
